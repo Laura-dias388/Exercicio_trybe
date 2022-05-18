@@ -1,8 +1,8 @@
 //Triangulos
 
-let a = 65;
-let b = 100;
-let c = 15;
+let a = 60;
+let b = 40;
+let c = 80;
 
 let somaDosLados = a + b + c;
 let anguloPositivo = a > 0 && b > 0 && c > 0; 
