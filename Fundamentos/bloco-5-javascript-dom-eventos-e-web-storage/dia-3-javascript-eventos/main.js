@@ -23,7 +23,6 @@ function resetText(event) {
    
   }
    
-
    function techChanger(event){
        
     let resp = document.getElementsByClassName('tech');
