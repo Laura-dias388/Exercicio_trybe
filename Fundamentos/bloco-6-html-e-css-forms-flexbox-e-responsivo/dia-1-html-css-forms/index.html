@@ -12,8 +12,41 @@
         <h1>Formulário</h1> 
     </header>
     <form action="" method="get">
-        <input type="text" name="texto" >
+        <label for="inpute-text">Digite seu nome</label><!--cria um vinculo entre a label e o campo em si-->
+        <hr>
+        <input type="text" name="texto" placeholder="digite aqui" required class="" name="texto" value="seu nome" id="inpute-text"><!--id identifica o input, importante para manipular a tag pelo document.getElementById, etc.-->
+
         <button type="submit" >Enviar</button>
     </form>  
+    <hr>
+    <form action="" method="get">
+        <label for="dic1"><input type="checkbox" id="dic1" value="ast" name="space" checked > Astrônomia</label>
+        <label for="dic2"><input type="checkbox" id="dic2" value="nas" name="space" > Nasa</label>
+        <label for="dic3">  <input type="checkbox" id="dic3" value="asr" name="space" > Astrofísica
+        </label>
+        <hr>
+        <label for="1"><input type="radio" id="1" name="game" value="gow"> God of War </label>
+        <label for="2"><input type="radio" id="2" name="game" value="ac"> Assassins Creed</label>
+        <label for="3"><input type="radio" id="3" name="game" value="gta"> Gta5</label>
+    </form>
+    <p>
+    <p>
+    <form action="" method="GET" enctype="multipart/form-data" >
+        <select name="game" id="dropdown-jogo">
+           <option value="gow">God Of War</option>
+           <option value="Gta">GTA5</option>
+           <option value="DMC">Devil My Cry</option>
+           <option value="REv">Resident Evil</option>
+        </select>
+        <input type="search" >
+        <input type="password" name="senha" required>
+        <hr>
+        <input type="file" name="" id="" >
+    </form>
+    <form action="">
+        <button type="submit" class="" id="" name="" >Enviar</button>
+    </form>
+    <hr>
+    <textarea name="" id="" cols="30" rows="20"></textarea>
 </body>
 </html>
