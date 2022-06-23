@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: rgb(172, 172, 202);
+}
+
+.container {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid black;
+    background-color: rgb(216, 234, 234);
+    justify-content: center;
+}
