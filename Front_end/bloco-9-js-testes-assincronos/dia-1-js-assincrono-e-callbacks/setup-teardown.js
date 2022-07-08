@@ -4,6 +4,7 @@ Teardown - é o terceiro ciclo. Uma fase que ocorre após os testes serem execut
 // cicles.test.js
 
 let cities = [];
+//const test = (city) => cities.includes(city);
 
 const addCity = (city) => {
   cities.push(city);
@@ -12,6 +13,8 @@ const addCity = (city) => {
 const removeCity = (city) => {
   cities = cities.filter((eachCity) => eachCity !== city);
 };
+
+module.exports = { addCity, removeCity };
 
 /*Aqui temos a declaração de uma variável cities, que é uma lista de cidades;
 Há duas funções, addCity que adiciona cidades ao array e removeCity que... Pasmem! Remove cidades desse array.
