@@ -12,6 +12,8 @@
   "author": "Laura",
   "license": "ISC",
   "dependencies": {
+    "eslint-config-trybe-backend": "^2.1.0",
+    "i": "^0.3.7",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
