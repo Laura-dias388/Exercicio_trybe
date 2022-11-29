@@ -1,2 +1,2 @@
 # Exercicio_trybe 
-Neste repositório estão meus exercícios do módulo de fundamentos da Trybe.
+Neste repositório estão meus exercícios feitos durante o curso de desenvolvimento web na Trybe.
